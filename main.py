@@ -48,4 +48,4 @@ def text(message):
     )
     bot.send_message(message.chat.id, completion.choices[0].message.content)
 
-bot.infinity_polling()
+bot.polling()
